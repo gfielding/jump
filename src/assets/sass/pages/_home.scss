@@ -4,12 +4,13 @@
   height: 100vh;
   width: 100%;
   overflow:hidden;
-  background-color:$accent;
+  background-color:$accentDark;
   video {
     position:absolute;
     top: 0;
     left:0;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     opacity: 0.9;
   }
@@ -35,16 +36,31 @@
   &__buttons {
     position:absolute;
     bottom:0;
-    width: calc(100% - 4rem);
+    width: calc(100% - 2rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding:1rem 2rem;
+    // @include respond(phone) {
+    //   background-image: url("https://firebasestorage.googleapis.com/v0/b/jump-staffing.appspot.com/o/waves.svg?alt=media&token=22ea97ff-d435-4f5e-b7ed-18a5ed4f5782");
+    //   background-repeat: repeat-x;
+    // }
+    padding:1rem 1rem;
+    .waves {
+      display: inline;
+    }
+    .waves:not(:first-of-type) {
+      @include respond(phone) {
+        display: none;
+      }
+    }
     svg {
       display: inline;
       height: 4rem;
       margin:0;
+      // @include respond(phone) {
+      //   display: none;
+      // }
     }
   }
 }
