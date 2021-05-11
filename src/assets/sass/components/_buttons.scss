@@ -1,0 +1,43 @@
+/*Buttons*/
+
+button, .btn {
+	&:hover {
+		cursor: pointer;
+	}
+	.fa-play-circle {
+		font-size: 2.4rem;
+		margin-left: 0.8rem;
+	}
+	.fa-spinner {
+		font-size: 1.35rem;
+	}
+	@include button;
+	&__primary {
+		background-color: $primary;
+		color:white;
+		&:hover {
+			background-color: $primaryDark;
+		}
+	}
+	&__text {
+		background-color: transparent;
+		color:$text;
+		padding:0;
+		margin:0 1rem;
+		&:hover {
+			color: $primary;
+			box-shadow: none;
+		}
+	}
+	&__icon {
+		background-color: transparent;
+		color:$text;
+		padding:0;
+		margin:0 1rem;
+		font-size: 2rem;
+		&:hover {
+			color: $primary;
+			box-shadow: none;
+		}
+	}
+}

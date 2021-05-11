@@ -1,0 +1,27 @@
+.footer {
+  background-color:white;
+  color:$text;
+  &__container {
+    @include container;
+    button {
+      &:hover {
+       transform: none;
+          box-shadow: none;
+      }
+    }
+  }
+  .logo {
+    height:4rem;
+    margin-bottom: 1rem;
+    @include respond(phone) {
+      height:3.2rem;
+    }
+  }
+}
+
+.dark {
+  .footer {
+    background-color:$dark2;
+    color:$textBright;
+  }
+}
