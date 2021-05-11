@@ -10,10 +10,12 @@
 			<div class="nav__items">
         <div class="nav__items--item">
           <router-link :to="{name: 'home'}">
-            Work For Us
+            <span class="hiddenSmAndDown pa-0">Work For Us</span>
+            <span class="hiddenMdAndUp pa-0">Sign Up</span>
+
           </router-link>/
           <router-link :to="{name: 'home'}">
-            Staff Login
+            Login
           </router-link>
         </div>
 				<!-- <div class="nav__items--item">

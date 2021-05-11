@@ -22,10 +22,18 @@
 				</button>
 			</div>
 			<div style="display: flex;align-items: center;">
-				<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				<button class="btn btn__text">About Us</button><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				<button class="btn btn__text">Business Inquiries</button><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				<button class="btn btn__text">Contact Us</button>
+				<div class="waves">
+					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
+				</div>
+				<button class="btn btn__text">About</button>
+				<div class="waves">
+					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
+				</div>
+				<button class="btn btn__text">Inquiries</button>
+				<div class="waves">
+					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
+				</div>
+				<button class="btn btn__text">Contact</span></button>
 			</div>
 		</div>		
 	</div>
