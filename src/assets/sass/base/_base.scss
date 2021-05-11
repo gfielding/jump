@@ -1,0 +1,14 @@
+#app {
+	background:white;
+}
+
+.background {
+	background-color:$background;
+}
+.dark .background {
+  background-color: $dark1;
+}
+
+.container {
+	@include container;
+}

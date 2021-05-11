@@ -1,0 +1,58 @@
+/*VARIABLES*/
+
+$light: #f3f3f3;
+$dark: #252626;
+$dark1: darken($dark, 5%);
+$dark2: darken($dark, 15%);
+$dark3: lighten($dark, 15%);
+
+$text: #666666;
+$textLight: lighten($text, 25%);
+$textBright: lighten($text, 50%);
+$textBright2: lighten($text, 60%);
+$textBright3: lighten($text, 75%);
+$textDark: darken($text, 25%);
+
+$primary: #013482;
+$primaryDark: darken($primary, 10%);
+$primaryDark2: darken($primary, 20%);
+$primaryLight: lighten($primary, 20%);
+$primaryBright: lighten($primary, 40%);
+
+
+$background: #f9f9f9;
+$backDark: darken($background, 4%);
+
+$secondary: #0ee0d6;
+$secondaryDark: darken($secondary, 10%);
+$secondaryDark2: darken($secondary, 20%);
+$secondaryLight: lighten($secondary, 10%);
+
+$accent:  #d606a9;
+$accentDark: darken($accent, 10%);
+$accentDark2: darken($accent, 20%);
+$accentLight: lighten($accent, 10%);
+
+$accent2:#e37609;
+$accentDark: darken($accent2, 10%);
+$accentDark2: darken($accent2, 20%);
+$accentLight: lighten($accent2, 10%);
+
+$accent3:#e37609;
+$accentDark: darken($accent3, 10%);
+$accentDark2: darken($accent3, 20%);
+$accentLight: lighten($accent3, 10%);
+
+$success: green;
+$error: red;
+
+$letter-spacing: 0.12rem;
+
+/*BORDER RADIUS*/
+$radius: 0.6rem;
+
+/*FONTS*/
+$smallText: 1rem;
+
+/*Theme Transition*/
+$transition: 0.1s all ease-in-out;

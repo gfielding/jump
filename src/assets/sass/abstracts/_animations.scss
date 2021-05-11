@@ -1,0 +1,44 @@
+/*Transitions*/
+.fade-enter {
+	opacity:0;
+}
+.fade-leave-active,
+.fade-enter-active {
+	transition: opacity 0.25s ease-out;
+}
+.fade-leave-to {
+  opacity: 0;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+//Loading
+.loading {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  min-height: 10rem;
+  width: 100%;
+  .fa-spin {
+    font-size:4rem;
+    color:$primaryLight;
+  }
+}
+
+.dark .loading {
+	.fa-spin {
+		color:$textBright;
+	}
+}

@@ -1,0 +1,28 @@
+.login {
+	background-color: $background;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	&__container {
+		@include container;
+		&--body {
+			form {
+				background-color:white;
+				padding:3rem;
+			}
+		}
+	}
+}
+
+.dark .login {
+	background-color: $dark;
+	&__container {
+		&--body {
+			form {
+				background-color:$dark2;
+			}
+		}
+	}
+}

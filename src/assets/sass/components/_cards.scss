@@ -1,0 +1,8 @@
+.card {
+	@include card;
+	background: white;
+}
+
+.dark .card {
+	background: $dark1;
+}
