@@ -42,3 +42,19 @@
 		color:$textBright;
 	}
 }
+
+
+[data-aos="underline"] {
+  &:before {
+    transform: scaleX(0);
+    visibility: hidden;
+    transition-property: transform, visibility;
+  }
+
+  &.aos-animate {
+    &:before {
+      transform: scaleX(1);
+      visibility: visible;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.default {
+	color:$text;
+	&--top {
+		padding-top: 10rem;
+		@include respond(phone) {
+			padding-top: 8rem;
+		}
+	}
+	&__container {
+		@include container;
+	}
+}

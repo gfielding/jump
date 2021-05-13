@@ -23,44 +23,16 @@
     color:white;
     mix-blend-mode: difference;
     h1 {
-      font-size: 12vw;
-      font-weight: 900;
-      line-height: 1;    
+      font-size: 8.4vw;
+      line-height: 1.1;  
+      font-family: EvelethDotLight;
+      letter-spacing: 0.2rem;
     }
     h3 {
-      font-size: 4vw;
-      font-weight: 900;
-      line-height: 1;
-    }
-  }
-  &__buttons {
-    position:absolute;
-    bottom:0;
-    width: calc(100% - 2rem);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    // @include respond(phone) {
-    //   background-image: url("https://firebasestorage.googleapis.com/v0/b/jump-staffing.appspot.com/o/waves.svg?alt=media&token=22ea97ff-d435-4f5e-b7ed-18a5ed4f5782");
-    //   background-repeat: repeat-x;
-    // }
-    padding:1rem 1rem;
-    .waves {
-      display: inline;
-    }
-    .waves:not(:first-of-type) {
-      @include respond(phone) {
-        display: none;
-      }
-    }
-    svg {
-      display: inline;
-      height: 4rem;
-      margin:0;
-      // @include respond(phone) {
-      //   display: none;
-      // }
+      font-size: 3vw;
+      line-height: 1.1;
+      font-family: EvelethDotLight;  
+      letter-spacing: 0.2rem;
     }
   }
 }

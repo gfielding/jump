@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "EvelethThin";
+  src: url('./fonts/EvelethThin/font.woff2') format('woff2'), url('./fonts/EvelethThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "EvelethDotRegular";
+  src: url('./fonts/EvelethDotRegular/font.woff2') format('woff2'), url('./fonts/EvelethDotRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "EvelethDotLight";
+  src: url('./fonts/EvelethDotLight/font.woff2') format('woff2'), url('./fonts/EvelethDotLight/font.woff') format('woff');
+}
+
+
+
+
 html {
   font-size:62.5% !important;
   //font-size:50% !important;
@@ -63,4 +79,24 @@ a {
 
 strong {
   font-weight: 600;
+}
+
+
+h1 {
+  font-size: 4vw;
+  line-height: 1.1;  
+  font-family: EvelethDotLight;
+  letter-spacing: 0.2rem;
+}
+h3 {
+  font-size: 2.2vw;
+  line-height: 1.1;
+  font-family: EvelethDotLight;  
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.35;
+  padding-bottom: 1rem;
 }

@@ -70,6 +70,16 @@
 	}
 }
 
+
+.flex-wrap {
+	.col1 {
+		flex:1;
+	}
+	.col2 {
+		flex:1;
+	}
+}
+
 .br-1 {
 	border-radius: $radius !important;
 }
