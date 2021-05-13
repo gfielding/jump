@@ -6,35 +6,8 @@
 		</video>
 		<div class="hero__text">
 			<h1>We Staff<br>Music Festivals,</h1>
-			<h3>Concerts, Sports, & other Large Events.</h3>
+			<h3>Concerts, Sports, & other Events.</h3>
 			
-		</div>
-		<div class="hero__buttons">
-			<div style="display: flex;align-items: center;">
-				<button class="btn btn__icon">
-					<i class="fab fa-instagram"></i>
-				</button>
-				<button class="btn btn__icon">
-					<i class="fab fa-twitter"></i>
-				</button>
-				<button class="btn btn__icon">
-					<i class="fab fa-facebook-square"></i>
-				</button>
-			</div>
-			<div style="display: flex;align-items: center;">
-				<div class="waves">
-					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				</div>
-				<button class="btn btn__text">About</button>
-				<div class="waves">
-					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				</div>
-				<button class="btn btn__text">Inquiries</button>
-				<div class="waves">
-					<SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy /><SVG_Wavy />
-				</div>
-				<button class="btn btn__text">Contact</span></button>
-			</div>
 		</div>		
 	</div>
 
