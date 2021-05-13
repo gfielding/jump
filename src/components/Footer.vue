@@ -1,7 +1,7 @@
 <template>
 	<div class="footer">
 		<div class="footer__buttons">
-			<div style="display: flex;align-items: center;">
+			<div style="display: flex;align-items: center;" class="social">
 				<button class="btn btn__icon">
 					<i class="fab fa-instagram"></i>
 				</button>

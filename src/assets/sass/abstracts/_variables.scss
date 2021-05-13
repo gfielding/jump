@@ -13,7 +13,9 @@ $textBright2: lighten($text, 60%);
 $textBright3: lighten($text, 75%);
 $textDark: darken($text, 25%);
 
-$primary: #013482;
+//$primary: #013482;
+$primary:#f108d4;
+//$primary: #470082;
 $primaryDark: darken($primary, 10%);
 $primaryDark2: darken($primary, 20%);
 $primaryLight: lighten($primary, 20%);
@@ -23,12 +25,13 @@ $primaryBright: lighten($primary, 40%);
 $background: #f5f5f5;
 $backDark: darken($background, 4%);
 
-$secondary: #0ee0d6;
+$secondary: #460082;
 $secondaryDark: darken($secondary, 10%);
 $secondaryDark2: darken($secondary, 20%);
 $secondaryLight: lighten($secondary, 10%);
 
-$accent:  #e00ebc;
+$accent:  #01d4b7;
+//$accent:  #e00ebc;
 $accentDark: darken($accent, 10%);
 $accentDark2: darken($accent, 20%);
 $accentLight: lighten($accent, 10%);

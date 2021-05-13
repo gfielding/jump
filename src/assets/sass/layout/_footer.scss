@@ -3,30 +3,36 @@
   bottom:0;
   top: calc(100% - 6rem);
   width: 100%;
-  background-color: white;
+  background: white;
   color:$text;
   a {
     text-decoration: none;
   }
+  @include respond(phone) {
+    .social {
+      padding:2rem 0 1rem 0;
+    }
+  }
   &__buttons {
     display: flex;
     align-items: center;
+    background: white;
     justify-content: space-between;
     font-family: "EvelethThin";
-
-    // @include respond(phone) {
-    //   background-image: url("https://firebasestorage.googleapis.com/v0/b/jump-staffing.appspot.com/o/waves.svg?alt=media&token=22ea97ff-d435-4f5e-b7ed-18a5ed4f5782");
-    //   background-repeat: repeat-x;
-    // }
+    
     padding:1rem 1rem;
+    @include respond(phone) {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+    }
     .waves {
       display: inline;
     }
-    .waves:not(:first-of-type) {
-      @include respond(phone) {
-        display: none;
-      }
-    }
+    // .waves:not(:first-of-type) {
+    //   @include respond(phone) {
+    //     display: none;
+    //   }
+    // }
     svg {
       display: inline;
       height: 4rem;
